@@ -6,7 +6,7 @@ export interface Props {
     className?: string;
 }
 
-export default ({ width = 'auto', height = 'auto', className }: Props) => {
+export default ({ width = '100%', height = '100%', className }: Props) => {
     return (
         <svg width={width} height={height} viewBox="0 0 5000 2638" fill="none" shapeRendering="crispEdges">
             <path d="M0 0 C1650 0 3300 0 5000 0 C5000 870.54 5000 1741.08 5000 2638 C3350 2638 1700 2638 0 2638 C0 1767.46 0 896.92 0 0 Z " fill="#FEFEFE" transform="translate(0,0)" />
