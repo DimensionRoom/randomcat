@@ -28,7 +28,7 @@ export default function RootLayout({
         <header className="layout-header">
           <div className="flex align-center brand-container">
             <div className="logo-container">
-              <SiteLogo height={50} />
+              <SiteLogo height={40} />
             </div>
             <p className="brand-text">Tool Kit</p>
           </div>
