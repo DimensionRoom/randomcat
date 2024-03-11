@@ -1,21 +1,37 @@
 {
   "pages": {
-    "/[locale]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/page.js"
+    "/_not-found": [
+      "static/chunks/webpack-e30d5cdec1f3406e.js",
+      "static/chunks/fd9d1056-ac4ac406fb020adf.js",
+      "static/chunks/69-8e8642f2ad144913.js",
+      "static/chunks/main-app-8962fad4aedcbca3.js",
+      "static/chunks/app/_not-found-0f6d757090cb10fa.js"
     ],
     "/[locale]/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/layout.css",
-      "static/chunks/app/[locale]/layout.js"
+      "static/chunks/webpack-e30d5cdec1f3406e.js",
+      "static/chunks/fd9d1056-ac4ac406fb020adf.js",
+      "static/chunks/69-8e8642f2ad144913.js",
+      "static/chunks/main-app-8962fad4aedcbca3.js",
+      "static/chunks/27-a42663adaeba8289.js",
+      "static/css/bb423246deb78684.css",
+      "static/chunks/app/[locale]/layout-2266cca748ae15a9.js"
     ],
     "/[locale]/innovationboard/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/innovationboard/page.css",
-      "static/chunks/app/[locale]/innovationboard/page.js"
+      "static/chunks/webpack-e30d5cdec1f3406e.js",
+      "static/chunks/fd9d1056-ac4ac406fb020adf.js",
+      "static/chunks/69-8e8642f2ad144913.js",
+      "static/chunks/main-app-8962fad4aedcbca3.js",
+      "static/chunks/541-814ff6f465d626e0.js",
+      "static/css/aca01f77ed415741.css",
+      "static/chunks/app/[locale]/innovationboard/page-ee416199065369ee.js"
+    ],
+    "/[locale]/page": [
+      "static/chunks/webpack-e30d5cdec1f3406e.js",
+      "static/chunks/fd9d1056-ac4ac406fb020adf.js",
+      "static/chunks/69-8e8642f2ad144913.js",
+      "static/chunks/main-app-8962fad4aedcbca3.js",
+      "static/chunks/8627a13e-941cc5918b9fdba9.js",
+      "static/chunks/app/[locale]/page-ae2a0fb471eaf4f7.js"
     ]
   }
 }
