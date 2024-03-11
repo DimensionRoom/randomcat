@@ -34,28 +34,28 @@ export default function RootLayout({
     <html lang={locale} dir={dir(locale)}>
       <body className={sarabun.className}>
         <header className="layout-header">
-          <div className="flex align-center brand-container">
-            <div className="logo-container">
-              <SiteLogo height={45} />
+          <Link href="/">
+            <div className="flex align-center brand-container">
+              <div className="logo-container">
+                <SiteLogo height={45} />
+              </div>
+              <p className="brand-text">Tool Kit</p>
             </div>
-            <p className="brand-text">Tool Kit</p>
-          </div>
+          </Link>
           <div className="flex align-center top-navigation">
             <Link href="/innovationboard">
               <div className="top-navigation-menu">Creativity</div>
             </Link>
-            <Link href="/">
-              <div className="top-navigation-menu">Education Canvas</div>
-            </Link>
+            <div className="top-navigation-menu">Education Canvas</div>
             <div className="top-navigation-menu">Gamification</div>
             <div className="top-navigation-menu">Innovation</div>
             <div className="top-navigation-menu">Contact us</div>
             <div className="tool-container">
               <div className="flag-container">
-                <THFlag width={40} />
+                <THFlag />
               </div>
               <div className="flag-container">
-                <ENFlag width={40} />
+                <ENFlag />
               </div>
             </div>
           </div>

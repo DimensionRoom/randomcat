@@ -51,13 +51,20 @@
     display: flex;
     align-items: center;
     height: inherit;
-    gap: 10px;
+    gap: 5px;
   }
 
   .flag-container {
     overflow: hidden;
-    height: inherit;
+    /* height: inherit; */
     cursor: pointer;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border: 2px solid transparent;
+  }
+  .flag-container:hover,.flag-container.active {
+    border: 2px solid #e7ddff;
   }
 
   .brand-container .logo-container {
